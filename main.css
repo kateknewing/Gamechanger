@@ -1,0 +1,95 @@
+body{
+ 	background:#4ca176;
+ 	color:white;
+}
+
+/*first div on homepage*/
+#intro{
+	background:url('img/panel1.png')no-repeat center ;
+	text-align:center;
+	height:650px;
+}
+/*text in div*/
+#introtxt{
+	position:absolute;
+	top:300px;
+}
+/*2nd div*/
+#youth{
+	background:#2f3138;
+	padding-top:100px;
+	height:500px;
+}
+
+#solution{
+	background:#4ca176;
+	padding-top:100px;
+	height:700px;
+}
+
+#research{
+	background:#2f3138;
+	height:800px;
+	padding-top:100px;
+}
+
+#next{
+	background:#4ca176;
+	padding-top:100px;
+	height:400px;
+}
+
+#ten{
+	background:white;
+	color:black;
+	padding-top:100px;
+	height:800px;
+}
+
+#eval{
+	background:#2f3138;
+	padding-top:100px;
+	height:800px;
+}
+
+#sports{
+	background:#4ca176;
+	padding-top:100px;
+	height:700px;
+}	
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(169,169,169, 0.8);
+    width:100%;
+    height:100%;
+    display: none;
+    text-align:center;
+    color:black !important;
+    z-index:2;
+}
+
+.but{
+	margin:5px 3px;
+	width:150px;
+}
+
+.butimg{
+	margin: 5px 0px;
+	width:150px;
+}
+
+/*For the multiple clicks */
+.bac{
+	background:white;
+	padding:10px;
+	color:black;
+}
+
+
